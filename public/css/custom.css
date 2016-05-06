@@ -1,0 +1,59 @@
+body {
+    background-color: #F5F5F5;
+    height: 100%;
+}
+#tareas-container{
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    
+}
+.light-gray-bgc{
+    background-color: #F5F5F5;
+}
+.scroll-div {
+    margin-top: 16px;
+    background-color: white;
+    max-height: 250px;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+#span-delete{
+    cursor: pointer;
+}
+.li-select{
+    cursor: zoom-in;
+}
+#list-group-item-red{
+    background-color: orangered;
+}
+#span-right{
+    margin-left: 100%;
+    cursor: pointer;
+}
+.tareas-div{
+    height: 50px;
+    vertical-align: center;
+}
+.tareas-lista{
+    font-size: 20px;
+}
+.home{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.btn-borrar{
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.descripcion-div{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
